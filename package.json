@@ -4,5 +4,10 @@
   "main": "server.js",
   "repository": "https://github.com/AndrewUsher/tvmaze-graphql-server.git",
   "author": "Andrew Usher <andrewusher00@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.6.6",
+    "apollo-server": "^2.9.7",
+    "graphql": "^14.5.8"
+  }
 }
