@@ -7,8 +7,8 @@ export class TVMazeAPI extends RESTDataSource {
     this.baseURL = 'https://api.tvmaze.com/'
   }
 
-  search = async () => {
-    const data = await this.get('search/shows?q=zach')
+  search = async (query = '') => {
+    const data = await this.get(`search/shows?q=${query}`)
     console.log(data)
     const parsedShowData = data.map(show => ({
       score: show.score,

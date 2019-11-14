@@ -8,6 +8,6 @@ export const typeDefs = gql`
   }
 
   type Query {
-    search: [Show]
+    search(query: String!): [Show]
   }
 `
