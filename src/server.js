@@ -1,4 +1,5 @@
 /* eslint-disable import/first */
+require('dotenv').config()
 require('@babel/register')
 import { ApolloServer } from 'apollo-server'
 import { resolvers } from './resolvers'
