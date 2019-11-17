@@ -2,10 +2,7 @@ import { RESTDataSource } from 'apollo-datasource-rest'
 import { parseHTML } from './utils'
 
 export class TVMazeAPI extends RESTDataSource {
-  constructor () {
-    super()
-    this.baseURL = 'https://api.tvmaze.com/'
-  }
+  baseURL = 'https://api.tvmaze.com/'
 
   search = async (query = '') => {
     const data = await this.get(`search/shows?q=${query}`)
