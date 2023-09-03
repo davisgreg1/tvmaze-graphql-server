@@ -18,7 +18,7 @@
     "@babel/preset-env": "7.7.7",
     "@babel/register": "7.7.7",
     "babel-eslint": "10.0.3",
-    "dotenv": "8.2.0",
+    "dotenv": "8.6.0",
     "eslint": "6.6.0",
     "eslint-config-standard": "14.1.0",
     "eslint-plugin-import": "2.18.2",
